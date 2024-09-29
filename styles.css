@@ -1,0 +1,120 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav h1 {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.about, .skills, .projects, .resume, .contact {
+    padding: 50px 20px;
+    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about {
+    text-align: center;
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+
+.skills ul li {
+    margin-bottom: 10px;
+}
+
+.projects {
+    text-align: center;
+}
+
+.projects .project-item {
+    margin: 20px 0;
+}
+
+.projects img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.resume {
+    text-align: center;
+}
+
+.resume-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.resume-button:hover {
+    background-color: #ff5722;
+}
+
+.contact {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
